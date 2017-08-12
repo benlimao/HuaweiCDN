@@ -1815,8 +1815,6 @@ void Adjlist::solve_sa(int cnt, double init_T, double min_T, double lambda)
 
 void Adjlist::solve_sa_spfa(int cnt, double init_T, double min_T, double lambda)
 {
-    //定时器
-
     //初始解
     //init_solution();
     //int min_cost = cal_total_cost(min_solved_set);   //最小费用
@@ -1827,8 +1825,6 @@ void Adjlist::solve_sa_spfa(int cnt, double init_T, double min_T, double lambda)
         double tmp_T = init_T;    //初始温度
         //double min_T = 0.1;      //最小温度
         //double lambda = 0.99;   //衰减指数
-
-        //
 
         int tmp_cost;    //当前费用
         int min_cost = cal_total_cost(min_solved_set);
