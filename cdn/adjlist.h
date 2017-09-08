@@ -122,7 +122,6 @@ public:
     char* get_solved_buffer(SolvedSet solved_set);  //根据解集生成buffer
     int cal_total_cost(SolvedSet solved_set); //根据解集计算总费用
 
-    //
     void show_path(Path path);	//打印路径
 
     //Solution
@@ -153,7 +152,7 @@ public:
     int edge_num;	//网络节点两两之间的链路数
     int usr_num;	//消费节点数
     int server_cost;	//单个服务器费用
-    int total_cost;   //
+    int total_cost;   
 
     //
     VertexNode *vertexnode;	//网络节点数组
