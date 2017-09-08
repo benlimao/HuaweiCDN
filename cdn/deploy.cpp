@@ -14,7 +14,6 @@ void deploy_server(char * topo[MAX_EDGE_NUM], int line_num,char * filename)
     int min_cost = INF;
     int tmp_cost;
 
-    //srand((unsigned)time(NULL));
     if(adjlist.node_num < 200)
     {
         for(int index = 0; index < 20; index++)
